@@ -1,6 +1,10 @@
 //import logo from "./logo.svg";
 import "./App.css";
 
+//import CounterOne from "./components/CounterOne";
+//import CounterTwo from "./components/CounterTwo";
+import CounterThree from "./components/CounterThree";
+
 //import ComponentC from "./components/ComponentC";
 
 //import DataFetching from "./components/DataFetching";
@@ -24,6 +28,12 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <CounterThree></CounterThree>
+
+      {/* <CounterTwo></CounterTwo> */}
+
+      {/* <CounterOne></CounterOne> */}
+
       {/* <ComponentC></ComponentC> */}
 
       {/* <DataFetching></DataFetching> */}
