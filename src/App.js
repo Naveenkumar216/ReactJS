@@ -1,7 +1,9 @@
 //import logo from "./logo.svg";
 import "./App.css";
 
-import DataFetching from "./components/DataFetching";
+//import ComponentC from "./components/ComponentC";
+
+//import DataFetching from "./components/DataFetching";
 
 //import IntervalClassCounter from "./components/IntervalClassCounter";
 //import IntervalHookCounter from "./components/IntervalHookCounter";
@@ -22,7 +24,9 @@ import DataFetching from "./components/DataFetching";
 function App() {
   return (
     <div className="App">
-      <DataFetching></DataFetching>
+      {/* <ComponentC></ComponentC> */}
+
+      {/* <DataFetching></DataFetching> */}
 
       {/* <IntervalHookCounter></IntervalHookCounter> */}
 
