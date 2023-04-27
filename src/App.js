@@ -1,6 +1,9 @@
 //import logo from "./logo.svg";
-import "./App.css";
 // import React, { useReducer } from "react";
+import "./App.css";
+
+import DataFetchingTwo from "./components/DataFetchingTwo";
+//import DataFetchingOne from "./components/DataFetchingOne";
 
 // import ComponentG from "./components/ComponentG";
 // import ComponentH from "./components/ComponentH";
@@ -53,6 +56,9 @@ function App() {
     //   value={{ countState: count, countDispatch: dispatch }}
     // >
     <div className="App">
+      <DataFetchingTwo></DataFetchingTwo>
+      {/* <DataFetchingOne></DataFetchingOne> */}
+
       {/* Count - {count}
         <ComponentG></ComponentG>
         <ComponentH></ComponentH>
