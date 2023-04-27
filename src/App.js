@@ -2,7 +2,9 @@
 // import React, { useReducer } from "react";
 import "./App.css";
 
-import DataFetchingTwo from "./components/DataFetchingTwo";
+import ParentComponent from "./components/ParentComponent";
+
+//import DataFetchingTwo from "./components/DataFetchingTwo";
 //import DataFetchingOne from "./components/DataFetchingOne";
 
 // import ComponentG from "./components/ComponentG";
@@ -56,7 +58,9 @@ function App() {
     //   value={{ countState: count, countDispatch: dispatch }}
     // >
     <div className="App">
-      <DataFetchingTwo></DataFetchingTwo>
+      <ParentComponent></ParentComponent>
+      {/* <DataFetchingTwo></DataFetchingTwo> */}
+
       {/* <DataFetchingOne></DataFetchingOne> */}
 
       {/* Count - {count}
