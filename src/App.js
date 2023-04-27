@@ -1,8 +1,23 @@
 //import logo from "./logo.svg";
 // import React, { useReducer } from "react";
 import "./App.css";
+import UserForm from "./components/UserForm";
 
-import ParentComponent from "./components/ParentComponent";
+//import CounterOneOne from "./components/CounterOneOne";
+//import CounterTwoTwo from "./components/CounterTwoTwo";
+
+//import DocTitleOne from "./components/DocTitleOne";
+//import DocTitleTwo from "./components/DocTitleTwo";
+
+//import HookTimer from "./components/HookTimer";
+
+//import ClassTimer from "./components/ClassTimer";
+
+//import FocusInput from "./components/FocusInput";
+
+//import Counter from "./components/Counter";
+
+//import ParentComponent from "./components/ParentComponent";
 
 //import DataFetchingTwo from "./components/DataFetchingTwo";
 //import DataFetchingOne from "./components/DataFetchingOne";
@@ -58,7 +73,24 @@ function App() {
     //   value={{ countState: count, countDispatch: dispatch }}
     // >
     <div className="App">
-      <ParentComponent></ParentComponent>
+      <UserForm></UserForm>
+
+      {/* <CounterOneOne></CounterOneOne>
+      <CounterTwoTwo></CounterTwoTwo> */}
+
+      {/* <DocTitleOne></DocTitleOne>
+      <DocTitleTwo></DocTitleTwo> */}
+
+      {/* <HookTimer></HookTimer> */}
+
+      {/* <ClassTimer></ClassTimer> */}
+
+      {/* <FocusInput></FocusInput> */}
+
+      {/* <Counter></Counter> */}
+
+      {/* <ParentComponent></ParentComponent> */}
+
       {/* <DataFetchingTwo></DataFetchingTwo> */}
 
       {/* <DataFetchingOne></DataFetchingOne> */}

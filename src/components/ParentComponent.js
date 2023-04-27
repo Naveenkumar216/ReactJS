@@ -9,11 +9,11 @@ function ParentComponent() {
 
   const incrementAge = useCallback(() => {
     setAge(age + 1);
-  },[age]); 
+  }, [age]);
+
   const incrementSalary = useCallback(() => {
-    setSalary(salary + 1000)
-  },[salary]);
-  };
+    setSalary(salary + 1000);
+  }, [salary]);
 
   return (
     <div>
